@@ -63,7 +63,7 @@ describe('App Component', () => {
     fireEvent.click(submitButton);
 
     await waitFor(() => {
-      expect(screen.getByText('A product already exists')).toBeInTheDocument();
+      expect(screen.getByText('A product with this name already exists')).toBeInTheDocument();
     });
   });
 
@@ -78,7 +78,7 @@ describe('App Component', () => {
     fireEvent.click(deleteButton);
 
     const confirmButton = screen.getByText('Delete', { selector: 'button.danger.medium' });
-    
+
     fireEvent.click(confirmButton);
 
     await waitFor(() => {
