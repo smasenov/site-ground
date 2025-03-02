@@ -1,0 +1,22 @@
+.form {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.formGroup {
+  width: 100%;
+  flex: 1;
+  min-width: 120px;
+  
+  :global(.inputWrapper) {
+    margin-bottom: 0;
+  }
+}
+
+.buttonGroup {
+  margin-left: 0.5rem;
+}
+
