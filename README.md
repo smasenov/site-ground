@@ -23,7 +23,7 @@ A React application for managing products with features like creating, reading, 
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone <github.com/smasenov/site-ground>
 ```
 
 2. Install dependencies
